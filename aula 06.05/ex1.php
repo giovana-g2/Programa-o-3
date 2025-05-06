@@ -7,7 +7,7 @@ class Caneta{
     public function exibirInformaçoes(){
         echo "Nome: $this->nome";
         echo ", Preço: $this->preco";
-        echo ", Quantidade: $this->quantidade";
+        echo ", Quantidade: $this->quantidade <br>";
     }
 }
 
